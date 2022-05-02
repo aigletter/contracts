@@ -4,5 +4,5 @@ namespace Aigletter\Contracts\Routing;
 
 interface RouteInterface
 {
-    public function route($uri): callable;
+    public function route(string $uri): callable;
 }
