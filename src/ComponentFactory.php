@@ -2,7 +2,7 @@
 
 namespace Aigletter\Contracts;
 
-abstract class ComponentFactoryAbstract
+abstract class ComponentFactory
 {
     protected $arguments;
 
