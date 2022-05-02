@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Aigletter\Interfaces\Builder;
+namespace Aigletter\Contracts\Builder;
 
 
 interface QueryBuilderInterface extends BuilderInterface

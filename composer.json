@@ -1,11 +1,11 @@
 {
     "name": "aigletter/interfaces",
-    "description": "Interfaces for tкtraining project",
+    "description": "Interfaces for training project",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Aigletter\\Interfaces\\": "src/"
+            "Aigletter\\Contracts\\": "src/"
         }
     },
     "authors": [
