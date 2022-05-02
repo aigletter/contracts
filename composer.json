@@ -1,5 +1,5 @@
 {
-    "name": "aigletter/interfaces",
+    "name": "aigletter/contracts",
     "description": "Interfaces for training project",
     "type": "library",
     "license": "MIT",
