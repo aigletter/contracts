@@ -9,5 +9,5 @@ interface QueryBuilderInterface extends BuilderInterface
     /**
      * @return QueryInterface
      */
-    public function build(): QueryInterface;
+    public function getQuery(): QueryInterface;
 }

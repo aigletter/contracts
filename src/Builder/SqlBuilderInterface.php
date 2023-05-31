@@ -9,5 +9,5 @@ interface SqlBuilderInterface extends BuilderInterface
     /**
      * @return string
      */
-    public function build(): string;
+    public function getSql(): string;
 }
