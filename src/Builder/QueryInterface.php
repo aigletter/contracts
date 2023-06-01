@@ -1,13 +1,16 @@
 <?php
 
-
 namespace Aigletter\Contracts\Builder;
-
 
 interface QueryInterface
 {
     /**
-     * @return string
+     * @return array
      */
-    public function toSql(): string;
+    public function one(): array;
+
+    /**
+     * @return array
+     */
+    public function all(): array;
 }

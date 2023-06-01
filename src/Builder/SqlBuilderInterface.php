@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Aigletter\Contracts\Builder;
-
 
 interface SqlBuilderInterface extends BuilderInterface
 {
